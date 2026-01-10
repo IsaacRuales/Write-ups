@@ -1,8 +1,11 @@
 # Machine Dragon
 
-**Plataforma:** Tre Hackers Labs
+**Plataforma:** The Hackers Labs
+
 **Dificultad:** Principiante
+
 **Sistema Operativo:** Linux
+
 
 La máquina Dragon de la plataforma The Hackers Labs es una máquina bastante sencilla la cual nos permite aprender y aplicar conceptos de seguridad ofensiva como:
 - Escaneo de puertos y servicios
