@@ -60,7 +60,7 @@ Obteniendo el siguiente resultado:
 
 Por lo que se puede observar la versión del servicio FTP es vulnerable.
 
-## 2 Explotación
+## 2. Explotación
 
 Iniciemos la consola de Metasploit.
 
@@ -94,6 +94,6 @@ Por último ejecutamos el script con el comando *run* o *exploit* y obtenemos ac
 
 ![root](screenshots/root.png)
 
-## 3 Conclusión
+## 3. Conclusión
 
 En conclusión, la máquina Tproot es un reto estupendo para principiantes en la seguridad ofensiva, debido a que el reto permite identificar versiones vulnerables de servicios y explotarlas de manera automatizada con la herramienta Metasploit.

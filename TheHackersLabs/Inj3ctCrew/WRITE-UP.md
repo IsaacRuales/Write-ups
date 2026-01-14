@@ -93,7 +93,7 @@ Luego de ingresar las credenciales encontramos un panel de ejecución remota de 
 
 ![etc/passwd](screenshots/etc_passwd.png)
 
-## 2 Explotación
+## 2. Explotación
 
 Encontramos un usuario llamado nolen11, por lo que podemos realizar un ataque de fuerza bruta con hydra, de la siguiente manera.
 
@@ -105,7 +105,7 @@ hydra -l nolen11 -P /usr/share/wordlists/rockyou.txt -t 64 ssh://192.168.100.179
 
 Encontramos la contraseña de usuario por lo que nos conectamos al usuario nolen11 a través de ssh. Obteniendo el primer acceso al sistema objetivo.
 
-## 3 Escalada de privilegios
+## 3. Escalada de privilegios
 
 Ejecutamos sudo -l para verificar posibles privilegios sudo del usuario nolen11.
 
@@ -119,6 +119,6 @@ Solo debemos abusar de este privilegio como nos muestra GTFObins y obtenemos acc
 
 ![root](screenshots/root.png)
  
- ## 4 Conclusión
+ ## 4. Conclusión
 
 La máquina Inj3ctCrew es un reto ideal para empezar y prácticar, ya que permite reforzar conceptos fundamentales de seguridad ofensiva como la enumeración de servicios, el análisis de código fuente, la identificación de credenciales expuestas y el uso de herramientas de cracking y fuerza bruta. Además, introduce de manera clara la importancia de revisar privilegios sudo para lograr la escalada de privilegios. En conjunto, la máquina ofrece una experiencia práctica y progresiva que simula escenarios reales de compromiso de sistemas Linux.

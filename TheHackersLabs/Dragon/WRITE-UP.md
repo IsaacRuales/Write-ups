@@ -54,7 +54,7 @@ Encontramos un directorio llamado secret, parece comprometedor, veamos que conti
 
 Se encuentra una especie de acertijo, sin embargo en la parte superior menciona 'Para Dragon' por lo que encontramos un posible nombre de usuario.
 
-## 2 Explotación
+## 2. Explotación
 
 Utilizando el nombre de usuario se puede intentar un ataque de fuerza bruta con hydra, con el siguiente comando.
 
@@ -69,7 +69,7 @@ Y se encuentra la contaseña de el usuario dragon, por lo que nos conectamos por
 ![dragon](screenshots/dragon.png)
 
 
-## 3 Escalada de privilegios
+## 3. Escalada de privilegios
 
 Luego de entrar al sistema a través del usuario dragon, una de las primeras cosas que se debe hacer es ejecutar el comando:
 
@@ -89,6 +89,6 @@ Y abusamos de esta configuración con la opción a. Obteniendo acceso al usuario
 
 ![root](screenshots/root.png)
 
-## 4 Conclusión
+## 4. Conclusión
 
 La máquina Dragon es un reto bastante simple, pero muy útil para aplicar conceptos básicos de hacking, es recomendable realizar la máquina una segunda vez pero sin el write-up para ir comprendiendo una metodología de ataque simple.
